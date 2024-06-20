@@ -43,17 +43,6 @@ if (!isNaN(age)) {
     alert("Veuillez entrer un âge valide.");
 }
 
-
-//-----------------------------------------------
-
-// conseiller vestimentaire basé sur la température et la pluie
-// exemple d'utilisation :
-const currentTemperature = 15;
-const isCurrentlyRaining = true;
-const clothingAdvice = adviseClothing(currentTemperature, isCurrentlyRaining);
-console.log(`Basé sur ${currentTemperature}°C et la pluie : ${clothingAdvice}`);
-
-
 //-----------------------------------------------
 //-----------------------------------------------
 //-----------------------------------------------
