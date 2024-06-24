@@ -18,7 +18,7 @@ if (isLeapYear(year)) {
 
 
 /*
-ALGORITHM isLeapYear
+ALGORITHM isLeapYear(year)
     VAR
         leapYear : boolean
         year : integer
@@ -62,7 +62,7 @@ if (!isNaN(age)) {
 }
 
 /*
-ALGORITHM ticketPrice
+ALGORITHM ticketPrice(age)
     VAR
         price : integer
         age : integer
@@ -119,7 +119,7 @@ const fibonacciIndex = 6;
 console.log(`Le nombre de Fibonacci à l'index ${fibonacciIndex} est : ${fibonacci(fibonacciIndex)}`);
 
 /*
-ALGORITHM fibonacci
+ALGORITHM fibonacci(n)
     VAR
         result : integer
         n : integer
